@@ -1,0 +1,56 @@
+#dropdown-toggle{
+    background-color: black;
+    box-shadow :0 0 2px  #A8A8A8, 0 0 2px  #A8A8A8;
+    width : 200px;
+    
+}
+
+.strip{
+    width: 198px;
+height: 5px;
+position: relative;
+left: 0px;
+bottom: 20px;
+background-color: #A8A8A8;
+
+}
+
+.segitiga{
+    height:0px;
+	width:0px;
+	border-bottom:30px solid black; 
+	border-left:solid 20px transparent;
+	border-right:20px  solid transparent ; 
+    position: relative;
+    left: 150px;
+    bottom :38px;
+}
+    
+  
+    
+
+
+#fotoProfile{
+    width: 60px;
+    height: 60px;
+    border : 2px solid #CD2E71;
+}
+
+.imageDrop{
+    width : 30px;
+    height: 30px;
+} 
+
+.item{
+    position: relative;
+    bottom : 20px;
+}
+
+.textIcon{
+    color : white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-left: 10px;
+}
+
+

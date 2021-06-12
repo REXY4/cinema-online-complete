@@ -1,0 +1,12 @@
+.buttonPlay{
+    width : 50px;
+    background-color: gray;
+    border-radius: 50px;
+    position: relative;
+    right: 410px;
+    top : 130px;
+}
+
+.buttonPlay:hover{
+    background-color: #FFFF;
+}

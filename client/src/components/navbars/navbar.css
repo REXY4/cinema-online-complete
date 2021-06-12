@@ -1,0 +1,44 @@
+.navHeader{
+    background-color: #000;
+}
+
+.linkTransaction{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    color : #CD2E71;
+    box-shadow: 0 0 10px rgb(255, 255, 255),0 0 10px rgb(255, 255, 255),0 0 10px rgb(255, 255, 255);
+  
+}
+
+.linkTransaction:hover{
+    background-color: #CD2E71;
+    border-radius: 50px;
+    color : rgb(255, 255, 255);
+    box-shadow: 0 0 20px #CD2E71,0 0 20px #CD2E71,0 0 20px #CD2E71;
+    transition: 0.4s;
+    transition-delay: 0.3s;
+    
+}
+
+.textLink{
+    color : #CD2E71;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.textLink:hover{
+    color : #ffff;
+    font-weight: bold;
+    text-shadow: 0 0 20px rgb(255, 255, 255),0 0 20px rgb(255, 255, 255),0 0 20px rgb(255, 255, 255);
+}
+
+.textLinkName{
+    color : #ffff;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.textLinkName:hover{
+    color : #CD2E71;
+    font-weight: bold;
+    text-shadow: 0 0 20px #CD2E71,0 0 20px #CD2E71,0 0 20px #CD2E71;
+}

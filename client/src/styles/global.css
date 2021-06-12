@@ -1,0 +1,242 @@
+body{
+    color : white;
+    background-color: black;
+    margin : 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* index */
+.rowIndexListFilm{
+    margin : 550px 0 0 0;
+}
+
+.listFilm{
+
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 48px;
+/* identical to box height, or 200% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+
+/* my list film */
+.titleListFilm{
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+/* 
+profile
+ */
+
+ .titleProfile{
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.text-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #CD2E71;
+}
+
+.textName{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #616161;
+}
+
+/* detail film */
+.titleDetail{
+    font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 66px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+.detailFilmModalEdit{
+    position: relative;
+    bottom : 120px;
+    left : 650px;
+}
+.detailCategory{
+    font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 48px;
+color: #7E7E7E;
+
+}
+
+.detailPrice{
+
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 48px;
+/* identical to box height, or 267% */
+
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+color: #CD2E71;
+}
+
+.detailDescription{
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 35px;
+align-items: center;
+text-align: justify;
+color: #FFFFFF;
+}
+
+.detailBuy{
+    width: 100px;
+    height: 40px;
+    background: #CD2E71;
+    border-radius: 5px;
+    color :white;
+    font-weight: 900;
+}
+
+
+/* add title */
+.addTitle{
+    width: 730px;
+    height: 50px;
+    left: 172px;
+    top: 186px;
+    background: rgba(210, 210, 210, 0.25);
+
+border: 2px solid #D2D2D2;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.addFilmTitle{
+    font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.container-add{
+    margin : 0 0 0 100px;
+}
+
+.exampleForm{
+    width: 920px;
+    height: 50px;
+    left: 172px;
+    top: 263px;
+
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #D2D2D2;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.buttonAdd{
+    width: 230px;
+height: 40px;
+left: 1099px;
+top: 718px;
+color : white;
+background: #CD2E71;
+border-radius: 5px;
+font-weight: bold;
+}
+
+.d-flex{
+    width : 920px;
+}
+
+
+#cardHover:hover{
+    box-shadow: 0 0 10px #CD2E71, 0 0 10px #CD2E71, 0 0 10px #CD2E71;
+    transition: 0.4s;
+    transition-delay: 0.2;
+}
+
+
+/* transaction */
+.titleTrans{
+
+color : #ffff;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+}
+
+th{
+color : #E50914;    
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+}
+
+td{
+    text-align: center;
+}
+
+.tdPending{
+
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+
+display: flex;
+align-items: center;
+
+color: #F7941E;
+}
+
+
+.loading{
+    color : black;
+    position: relative;
+    top : 200px;
+    right : 90px;
+}
+
+
+
+

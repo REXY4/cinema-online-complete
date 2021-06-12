@@ -1,0 +1,14 @@
+.camera{
+    width : 40px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black, 0 0 10px black, 0 0 5px black;
+}
+
+.camera:hover{
+    background-color: white;
+    box-shadow: 0 0 10px #ffff, 0 0 10px #ffff, 0 0 5px #ffff;
+    
+    transition: 0.3s;
+    transition-delay: 0.2s;
+}

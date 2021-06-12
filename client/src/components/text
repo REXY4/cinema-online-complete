@@ -1,0 +1,125 @@
+import React,{
+    useContext,
+    useState,
+    useParams,
+    useEffect
+} from "react";
+
+import {
+  useHistory,
+} from "react-router-dom";
+
+import {
+  FormText,
+  Row,
+  Pagination
+} from "react-bootstrap";
+
+import {API} from "../../config/api";
+
+import CardList from "../Card";
+import Paginations from "../Pagination";
+
+
+
+
+
+function AdminListFilm({search}){
+  const [film, setFilm ] = useState([]);
+  //pagination
+  const [previous, setPrevious] = useState(0);
+  const [current, setCurrent] = useState(5);
+
+    let history = useHistory();
+    
+   
+
+     const loadRaiseFund = async () => {
+       try {
+         const response = await API.get(`/films`);
+         setFilm(response.data.data.film);
+
+         
+       } catch (error) {
+         console.log(error);
+       }
+     };
+     useEffect(() => {
+       loadRaiseFund();
+     }, []);
+     
+     const handleHistory = (filmId) =>{
+         return history.push("/detailfilm/"+ filmId)
+     }
+    
+   
+    const numberLength = film.length / 5; 
+    const numberButton = [];
+
+    for(let number = 1;number <= 2;number++ ){
+        numberButton.push(
+          <Pagination.Item key={number}
+          onClick={()=>{
+            if(number === 1){
+              setPrevious(0)
+              setCurrent(5)
+            }else{
+            let prev = (number * 5) / number;
+            let cur = number * 5;
+            setPrevious(prev);
+            setCurrent(cur);
+            }
+            }}>
+                {number}
+          </Pagination.Item>
+        )
+    }
+
+     if(search){
+       return film?.filter(film => film.title.slice(0, search.length).toLowerCase() === search.toLowerCase()).map((item, index)  =>{ 
+         
+              return ( 
+                <>
+                <CardList 
+                image={item.thumbnail} 
+                onClick={()=>handleHistory(item?.id)}/>
+                </>
+     ) 
+               
+   })   
+
+     }else{
+       return(
+        <>
+        <Row>
+         {film?.slice(previous, current).map((item, index)  =>{ 
+          return ( 
+            <>
+              <CardList 
+              image={item.thumbnail} 
+              onClick={()=>handleHistory(item?.id)}/>
+        
+            </>
+              ) 
+          })}
+          </Row>
+                <Row>
+                  <Pagination>
+                    {numberButton}
+                  </Pagination>
+                </Row>
+
+                
+        </>   
+       ) 
+      }
+    }
+  
+     
+     
+
+export default AdminListFilm;
+
+
+
+//1.modal buy ,filmId di convert kke number

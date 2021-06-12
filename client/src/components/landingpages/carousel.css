@@ -1,0 +1,99 @@
+#carousel{
+    position: absolute;
+    max-width: 1000px;
+    max-height: 437px;
+    left: 179px;
+    top: 149px;
+    
+}
+
+.titleCarousel{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    color: #ffff;
+    letter-spacing: 3px;
+}
+
+.div-caption{
+    max-width: 139px;
+    max-height: 96px;
+   
+}
+ 
+
+.text-action{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 48px;
+    color: #FFFFFF;
+   
+}
+
+.category{
+    font-style: normal;
+font-weight: 900;
+font-size: 18px;
+color: #FFFFFF;
+}
+
+.price{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: #CD2E71;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+.description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-align: justify;
+    margin-left : 5px;
+}
+
+.imageCarousel{
+    width : 1000px;
+    height : 400px;
+    filter: grayscale(50%);
+    filter: contrast(150%);
+    filter: brightness(0.70);
+}
+
+    
+    
+
+.frontGroundCarousel{
+    background-color: blanchedalmond;
+}
+
+.bodyCarousel{
+    background-color: rgb( 0, 0, 0, 0.3);
+    
+}
+
+.buttonBuy{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+
+ 
+   
+    
+
+
+    
+    
+    

@@ -1,0 +1,70 @@
+.modalLogin{
+    background-color: rgb(255, 255, 255,0.3);
+   
+}
+
+.modal-body{
+    background-color: #000000;
+       
+}
+
+.custom-modal{
+    max-width: 416px;
+    height: 408px;
+    border-radius: 10px;
+}
+    
+
+.loginTitle{
+    color : #CD2E71;
+    padding: 25px 0 25px 15px;  
+}
+
+.text-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+}
+    
+#formGroupEmail{
+    width: 350px;
+    height: 50px;
+    background-color: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color : #ffffff;
+    margin : 0 0 0 15px;
+}
+    
+
+#formGroupPassword{
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 350px;
+    height: 50px;
+    color : #ffffff;
+    margin : 0 0 0 15px;
+}
+    
+#buttonLogin{
+    width: 350px;
+    height: 50px;
+    left: 33px;
+    top: 275px;
+    background: #CD2E71;
+    border-radius: 10px;
+    border: 2px solid #CD2E71 ;
+    margin : 25px 0 25px 15px;    
+}
+
+.text-link{
+   padding: 0 0 0 70px;
+}
+
+
+
+ 

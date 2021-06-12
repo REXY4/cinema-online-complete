@@ -1,0 +1,60 @@
+#dropdown-toggle{
+    background-color: black;
+    box-shadow :0 0 2px  #A8A8A8, 0 0 2px  #A8A8A8;
+}
+
+.approveToggle{
+    font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+letter-spacing: 3px;
+text-align: center;
+
+color: #0ACF83;
+}
+
+.cancelToggle{
+    font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+letter-spacing: 3px;
+text-align: center;
+
+color: #FF0000;
+}
+
+
+.segitigaTrans{
+    height:0px;
+	width:0px;
+    
+	border-bottom:solid 30px  black; 
+	border-left:solid 20px transparent;
+	border-right:20px  solid transparent ; 
+    position: relative;
+    left: 119px;
+    bottom :50px;
+}
+
+#tombol{
+    height:0px;
+	width:0px;
+    
+	border-top:solid 20px  #1C9CD2;; 
+	border-left:solid 15px transparent;
+	border-right: 15px  solid transparent ; 
+    position: relative;
+    left: 0px;
+    top :20px;
+}
+
+#tombol:hover{
+    border-top:solid 20px  #75c5e8;; 
+	border-left:solid 15px transparent;
+	border-right: 15px  solid transparent ; 
+    color : rgb(77, 75, 75);
+}

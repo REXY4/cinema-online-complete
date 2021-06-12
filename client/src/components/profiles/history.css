@@ -1,0 +1,65 @@
+.cardBody{
+    position: relative;
+    bottom : 10px;
+}
+
+.nameHistory{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
+.timeHistory{
+    font-style: normal;
+    font-size: 9px;
+    line-height: 12px;
+
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
+.dateHistory{
+        font-weight: 900;
+    }
+
+.totalHistory{
+    font-style: normal;
+font-weight: 900;
+font-size: 10px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #CD2E71;
+}    
+    
+.buttonHistory{
+    width: 112px;
+    height: 19px;
+    left: 1116px;
+    top: 305px;
+    background-color: rgb(0, 255, 71, 0.1);
+    border-radius: 2px;
+} 
+
+.textButton{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: rgba(255, 102, 0, 0.185);
+    position: relative;
+    bottom: 7px;
+}
+
+
+
+
+
